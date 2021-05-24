@@ -1,6 +1,33 @@
 .container {
-  background-color: blue;
+  background-color: lightblue;
+  width: 980px;
+  height: 900px;
 }
-.class {
+.menu {
   background-color: black;
+  width: 1000px;
+  height: 47px;
+  display: absolute;
+}
+a {
+  text-decoration: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content > p :hover {
+  background-color: aqua;
+  font-size: 20px;
 }
