@@ -1,7 +1,8 @@
 .container {
   background-color: lightblue;
   width: 980px;
-  height: 900px;
+  height: 430px;
+  display: flex;
 }
 .menu {
   background-color: black;
@@ -31,9 +32,47 @@ a {
   display: block;
 }
 .dropdown-content > p :hover {
-  background-color: aqua;
+  background-color: rgb(0, 174, 255);
   font-size: 20px;
 }
 .right {
   display: flex;
+  padding-left: 400px;
+  font-size: 20px;
+}
+.home {
+  padding-top: 10px;
+}
+.home:hover {
+  font-size: 25px;
+}
+.about {
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.about:hover {
+  font-size: 25px;
+}
+#grow {
+  padding-left: 15px;
+}
+#grow:hover {
+  font-size: 25px;
+}
+#connect {
+  padding-right: 15px;
+  margin-left: 15px;
+}
+#connect:hover {
+  font-size: 25px;
+}
+#give {
+  padding-right: 15px;
+}
+#give:hover {
+  font-size: 25px;
+}
+.circle {
+  background-color: purple;
+
 }
