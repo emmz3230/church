@@ -5,14 +5,17 @@
 }
 .menu {
   background-color: black;
-  width: 1000px;
+  width: 980px;
   height: 47px;
-  display: absolute;
+  display: flex;
+  /* justify-content: space-between; */
 }
 a {
   text-decoration: none;
 }
 .dropdown {
+  padding-left: 20px;
+  padding-top: 10px;
   position: relative;
   display: inline-block;
 }
@@ -30,4 +33,7 @@ a {
 .dropdown-content > p :hover {
   background-color: aqua;
   font-size: 20px;
+}
+.right {
+  display: flex;
 }
